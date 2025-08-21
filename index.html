@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de Filmes</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <center>
+    <h1>Buscador de Filmes</h1>
+    <p>Digite o nome de um filme:</p>
+    <input type="text" id="filme" placeholder="Ex: Inception">
+    <button onclick="getMovie()">Pesquisar</button>
+
+    <div id="resultado" class="card">
+      <p>Aguardando...</p>
+    </div>
+  </center>
+  <script src="script.js"></script>
+</body>
+</html>
